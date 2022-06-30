@@ -536,14 +536,14 @@ a:focus,
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
-  background-color: #becde3;
+  background-color: #ecf4fa;
   padding: 30px;
 }
 
 .brand-container {
   justify-content: space-between;
   border-radius: 20px;
-  background-color: #becde3;
+  background-color: #ecf4fa;
   padding: 30px;
   margin: 40px 0;
 }
