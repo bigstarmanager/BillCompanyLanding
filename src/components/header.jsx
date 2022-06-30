@@ -10,18 +10,29 @@ export const Header = (props) => {
             <p>{props.data ? props.data.paragraph : 'Loading'}</p>
             <div className="header-button">
               <a
-                href='#features'
+                href='https://en.wikipedia.org/wiki/Cryptocurrency'
+                target="blank"
                 className='btn btn-custom btn-lg page-scroll'
               >
-                Learn More
+                Cryptocurrency
               </a>{' '}
             </div>
             <div className="header-button">
               <a
-                href='#features'
+                href='https://en.wikipedia.org/wiki/Blockchain'
+                target="blank"
                 className='btn btn-custom btn-lg page-scroll'
               >
-                Learn More
+                Blockchain
+              </a>{' '}
+            </div>
+            <div className="header-button">
+              <a
+                href='https://en.wikipedia.org/wiki/Metaverse'
+                target="blank"
+                className='btn btn-custom btn-lg page-scroll'
+              >
+                Metaverse
               </a>{' '}
             </div>
           </div>

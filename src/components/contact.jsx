@@ -16,15 +16,19 @@ export const Contact = (props) => {
             Contact us
           </h3>
           <div className="contact-address-box">
-            <p>Email us: </p>
-            <p>Business: </p>
+            <p>Email us : <a href="mailto:startup.int.group@gmail.com" target="blank">startup.int.group@gmail.com</a></p>
+            <p>Business : <a href="tel:+65 8455 5088">+65 8455 5088</a></p>
           </div>
           <div className="contact-icon-box">
-            <img src="img/sociallogo/1.png" alt="social-icon" />
-            <img src="img/sociallogo/2.png" alt="social-icon" />
+            <a href="http://t.me/startupint" target="blank">
+              <img src="img/sociallogo/1.png" alt="social-icon" />
+            </a>
+            <a href="https://wa.me/qr/COKIIYHDHABZN1" target="blank">
+              <img src="img/sociallogo/5.png" alt="social-icon" />
+            </a>
+            {/* <img src="img/sociallogo/2.png" alt="social-icon" />
             <img src="img/sociallogo/3.png" alt="social-icon" />
-            <img src="img/sociallogo/4.png" alt="social-icon" />
-            <img src="img/sociallogo/5.png" alt="social-icon" />
+            <img src="img/sociallogo/4.png" alt="social-icon" /> */}
           </div>
         </div>
       </div>
