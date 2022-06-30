@@ -72,7 +72,11 @@ hr {
   font-size: 24px;
   font-weight: 700;
   color: #ecf4fa;
-  visibility: hidden;
+  padding: 0 !important;
+}
+
+#menu a.navbar-brand img {
+  height: 100%;
 }
 
 #menu.navbar-default .navbar-nav>li>a {
@@ -965,6 +969,10 @@ a:focus,
 @media only screen and (max-width: 768px) {
   .vision-company-logo-box {
     grid-template-columns: auto auto auto;
+  }
+
+  #menu.navbar-default .navbar-nav>li>a {
+    margin: 9px 10px 0;
   }
 
   .intro h1 {
